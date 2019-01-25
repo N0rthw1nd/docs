@@ -1,0 +1,25 @@
+{
+  "name": "docs",
+  "version": "0.1.0",
+  "description": "CoderBot documentation, guides and manual",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderBotOrg/docs.git"
+  },
+  "author": "Antonio Vivace",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/CoderBotOrg/docs/issues"
+  },
+  "homepage": "https://github.com/CoderBotOrg/docs#readme",
+  "dependencies": {
+    "vuepress": "^1.0.0-alpha.32"
+  }
+}

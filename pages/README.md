@@ -1,0 +1,3 @@
+# Documentazione CoderBot
+
+### [Manuale](manual/)
