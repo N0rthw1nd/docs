@@ -2,6 +2,8 @@
 
 This is the CoderBot documentation repository.
 
+The development is done on the dev branch, since master is hosting the production build, served by GitHub pages (automatically deployed by an npm script, see package.json).
+
 ### Deploy
 
 Start a development server with hot reload on `localhost:8080`:
@@ -14,13 +16,11 @@ Production build:
 npx vuepress build pages/
 ```
 
-There's an npm script to deploy on GitHub pages from the `master` branch. Run 
+Build and deploy on GitHub Pages: 
 
 ```bash
 npm run deploy
 ```
-
-And be sure to have setup GitHub pages to serve the `master` branch.
 
 ### License
 
