@@ -1,6 +1,6 @@
 # docs
 
-This is the CoderBot documentation repository: a [Vue.js](https://vuejs.org/) application using [VuePress].(https://vuepress.vuejs.org/) (1.x alpha)
+This is the CoderBot documentation repository: a [Vue.js](https://vuejs.org/) application using [VuePress](https://vuepress.vuejs.org/) (1.x alpha).
 
 The development is done on the dev branch, since master is hosting the production build, served by GitHub pages (automatically deployed by an npm script, see package.json).
 
