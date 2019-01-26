@@ -1,6 +1,7 @@
 Attribution-NonCommercial-ShareAlike 4.0 International
 
-(C) Copyright 2014 - 2019 Roberto Previtera, Antonio Vivace, CoderBot contributors.
+(C) Copyright 2014 - 2019 Roberto Previtera, Antonio Vivace, 
+Edoardo Datteri, CoderBot contributors.
 
 =======================================================================
 
