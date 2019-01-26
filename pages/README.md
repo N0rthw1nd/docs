@@ -1,4 +1,5 @@
 # Documentazione CoderBot
+{{ $lang }}
 
 <div style="font-size:18px">
 

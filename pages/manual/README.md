@@ -18,7 +18,7 @@ La ricarica è possibile anche collegando direttamente il cavo Micro USB ad un P
 
 ### Aggiornarmento
 
-::: warning
+::: warning ATTENZIONE
 Prima di continuare, assicuratevi che la batteria sia carica almeno al **50%**.
 :::
 
