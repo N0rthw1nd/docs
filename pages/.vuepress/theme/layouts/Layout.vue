@@ -48,6 +48,8 @@
 </template>
 
 <script>
+import 'typeface-overpass-mono'
+
 import Home from '../components/Home.vue'
 import Navbar from '../components/Navbar.vue'
 import Page from '../components/Page.vue'
