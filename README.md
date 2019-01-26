@@ -4,6 +4,10 @@ This is the CoderBot documentation repository: a [Vue.js](https://vuejs.org/) ap
 
 The development is done on the dev branch, since master is hosting the production build, served by GitHub pages (automatically deployed by an npm script, see package.json).
 
+```bash
+git clone https://github.com/CoderBotOrg/docs.git
+npm install
+```
 
 ### Deploy
 
@@ -12,7 +16,7 @@ Start a development server with hot reload on `localhost:8080/docs/`:
 npx vuepress dev pages/
 ```
 
-Production build:
+Production build (destionation: `pages/.vuepress/dist`):
 ```bash
 npx vuepress build pages/
 ```
@@ -50,18 +54,23 @@ npm run deploy
 └── package.json
 ```
 
-- `docs/.vuepress`: It is used to store global configuration, components, static resources, etc.
-- `docs/.vuepress/components`: The Vue components in this directory will be automatically registered as global components.
-- `docs/.vuepress/theme`: Used to store local theme.
-- `docs/.vuepress/styles`: Stores style related files.
-- `docs/.vuepress/styles/index.styl`: Automatically applied global style files, generated at the ending of the CSS file, have a higher priority than the default style.
-- `docs/.vuepress/styles/palette.styl`: The palette is used to override the default color constants and to set the color constants of Stylus.
-- `docs/.vuepress/public`: Static resource directory.
-- `docs/.vuepress/templates`: Store HTML template files.
-- `docs/.vuepress/templates/dev.html`: HTML template file for development environment.
-- `docs/.vuepress/templates/ssr.html`: Vue SSR based HTML template file in the built time.
-- `docs/.vuepress/config.js`: Entry file of configuration, can also be yml or toml.
-- `docs/.vuepress/enhanceApp.js`: App level enhancement.
+- `pages/.vuepress`: It is used to store global configuration, components, static resources, etc.
+- `pages/.vuepress/components`: The Vue components in this directory will be automatically registered as global components.
+- `pages/.vuepress/theme`: Used to store local theme.
+- `pages/.vuepress/styles`: Stores style related files.
+- `pages/.vuepress/styles/index.styl`: Automatically applied global style files, generated at the ending of the CSS file, have a higher priority than the default style.
+- `pages/.vuepress/styles/palette.styl`: The palette is used to override the default color constants and to set the color constants of Stylus.
+- `pages/.vuepress/public`: Static resource directory.
+- `pages/.vuepress/templates`: Store HTML template files.
+- `pages/.vuepress/templates/dev.html`: HTML template file for development environment.
+- `pages/.vuepress/templates/ssr.html`: Vue SSR based HTML template file in the built time.
+- `pages/.vuepress/config.js`: Entry file of configuration, can also be yml or toml.
+- `pages/.vuepress/enhanceApp.js`: App level enhancement.
+
+Image assets using the $baseURL helper
+```html
+<img :src="$withBase('/foo.png')" alt="foo">
+```
 
 ### License
 
