@@ -15,9 +15,9 @@ Benvenuto nella documentazione di CoderBot. Qui troverai tutto il materiale disp
 - Manuale d'uso
     - Programmazione
     - Attività
-- Guide
-  - Muovere CoderBot
-  - Programmare con i sensori
+- [Guide](guides/)
+  - [Muovere CoderBot](guides/#muovere-coderbot)
+  - [Programmare con i sensori](guides/#programmiamo-con-i-sensori)
 
 
 
