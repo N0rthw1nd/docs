@@ -17,9 +17,9 @@
         class="site-name"
         v-if="$siteTitle"
         :class="{ 'can-hide': $site.themeConfig.logo }"
-      ></span>
-      <span class="logo">CoderBot</span>
-<span class="subtitle">documentazione</span>
+      ><span class="subtitle">Documentazione</span> <span class="logo">CoderBot</span>
+</span>
+      
     </router-link>
 
     <div
@@ -100,7 +100,7 @@ $navbar-horizontal-padding = 1.5rem
     height $navbarHeight - 1.4rem
     min-width $navbarHeight - 1.4rem
     margin-right 0.8rem
-    vertical-align top
+    //vertical-align top
   .site-name
     font-size 1.6rem
     font-weight 600
