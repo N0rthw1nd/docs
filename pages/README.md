@@ -1,5 +1,5 @@
-# Documentazione CoderBot
-{{ $lang }}
+Benvenuto nella documentazione di CoderBot. Qui troverai tutto il materiale disponibile per imparare ad utilizzare e configurare CoderBot sfruttando al meglio le sue funzionalità.
+
 
 <div style="font-size:18px">
 

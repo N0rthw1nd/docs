@@ -2,7 +2,7 @@ module.exports = {
   locales:{
   '/': {
       lang: 'it-IT', // this will be set as the lang attribute on <html>
-      title: 'CoderBot - Docs',
+      title: 'Documentazione di CoderBot',
       description: 'Guide e istruzioni per l\'utilizzo di CoderBot'
     }
   },
