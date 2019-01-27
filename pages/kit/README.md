@@ -36,8 +36,10 @@
 
 1.4 Infilare le viti di fissaggio nei fori sul Raspberry PI e serrarle con i dadi sotto la base in legno
 
-**Attenzione:** Il Raspberry deve essere posizionato in modo che le porte USB siano rivolte verso la parte più corta del supporto in legno (il lato opposto alla finestrella).
+::: warning ATTENZIONE
+Il Raspberry deve essere posizionato in modo che le porte USB siano rivolte verso la parte più corta del supporto in legno (il lato opposto alla finestrella).
 Nella foto a destra: particolare di una vite con distanziale fissato correttamente
+:::
 
 ## 2 - Motori
 
@@ -61,7 +63,9 @@ Ripetere per l’altro motore
 
 3.2 fissare sfera + distanziali alla parte inferiore del telaio, stringere bene le viti e i dadi 
 
-**Attenzione:** la sfera deve essere fissata nella parte inferiore del telaio, ovvero dalla stessa parte dove si trovano i motori.
+::: warning ATTENZIONE
+La sfera deve essere fissata nella parte inferiore del telaio, ovvero dalla stessa parte dove si trovano i motori.
+:::
 
 ## 4 - Paratie anteriore e laterali
 
@@ -89,7 +93,9 @@ Ripetere per l’altro motore
 
 5.5 Collegare i cavi dei sensori a ultrasuoni: il cavo del sensore centrale, che passa sotto il raspberry e atteaverso la feritoria nella parte posteriore del supporto, deve essere inserito nel connettore più vicina alla parte anteriore. Il cavo del sensore sinistro deve essere posizionato nel connettore al centro e infine il cavo del sensore destro nel connettore più vicina alla parte posteriore.
 
-**Attenzione:** i connettori dei sensori devono **ASSOLUTAMENTE** essere inseriti in modo che il filo di colore rosso sia nella parte sinistra rispetto al robot.
+::: warning ATTENZIONE
+I connettori dei sensori devono **ASSOLUTAMENTE** essere inseriti in modo che il filo di colore rosso sia nella parte sinistra rispetto al robot.
+:::
 
 ## 6 Telecamera
 
