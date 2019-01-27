@@ -64,4 +64,70 @@ Al posto di `10` scrivi `4`:
   - Esegui il programma. Era quello che ti aspettavi?
 
 ## Programmiamo con i sensori
-asdfasd
+
+Cancella il programma che hai realizzato fin'ora.
+
+<img :src="$withBase('/images/guides/sens1.png')">
+
+Inserisci il blocco **se … fai**, che trovi in **Logica**.
+
+<img :src="$withBase('/images/guides/sens2.png')">
+
+Inserisci l’istruzione *confronto* raffigurata, che trovi ancora in **Logica**.
+
+<img :src="$withBase('/images/guides/sens3.png')">
+
+Inserisci **leggi distanza con sonar 1**, che trovi in **Sensori**.
+
+<img :src="$withBase('/images/guides/sens4.png')">
+
+Modifica il simbolo `=` in `<`, cliccandoci sopra.
+
+<img :src="$withBase('/images/guides/sens5.png')">
+
+Inserisci il blocco in figura, che troverai in **Matematica**.
+
+<img :src="$withBase('/images/guides/sens6.png')">
+
+Modifica `0` in `15`.
+
+<img :src="$withBase('/images/guides/sens7.png')">
+
+Inserisci un blocco **ripeti mentre**, che trovi in **Cicli**.
+
+Posizionalo come in figura.
+
+
+<img :src="$withBase('/images/guides/sens8.png')">
+
+Adesso completa il programma come indicato in figura.
+
+Cosa ti aspetti che faccia il robot quando eseguirai il programma?
+
+<img :src="$withBase('/images/guides/sens9.png')">
+
+Ora clicca sulla piccola rotellina prima del **se**. Apparirà una finestra.
+
+Trascina **altrimenti** sotto il **se**, come indicato in figura.
+
+Poi clicca di nuovo sulla rotellina per chiudere la finestra.
+
+<img :src="$withBase('/images/guides/sens10.png')">
+
+Inserisci **gira a destra** in “altrimenti”.
+- Cosa ti aspetti che faccia CoderBot?
+- Esegui il programma. Era quello che ti aspettavi?
+
+<img :src="$withBase('/images/guides/sens11.png')">
+
+::: tip PROVA A SPERIMENTARE
+- Inserisci valori diversi da `15`.
+- Modifica `<` in `>`.
+- Modifica le istruzioni di movimento.
+:::
+
+Guarda attentamente il seguente programma. Prima di eseguirlo prova a pensare a cosa farà il CoderBot.
+
+<img :src="$withBase('/images/guides/sens12.png')">
+
+Ora componilo ed eseguilo. Il CoderBot si è comportato come ti aspettavi?
