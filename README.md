@@ -78,4 +78,6 @@ Image assets using the $baseURL helper
 
 The codebase is available under the terms of GNU [General Public License, version 3](LICENSE.txt).
 
+The VuePress theme we use is based on the [default](https://github.com/vuejs/vuepress/blob/master/LICENSE) one, released under the MIT License.
+
 If not differently specified, blog posts, pages, documentation and contents (Text and markdown files, assets) are licensed under the [Creative Commons Attribution Share Alike 4.0 International license](LICENSE_contents.txt) (CC-BY-SA-4.0).
