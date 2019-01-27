@@ -49,6 +49,8 @@
 
 <script>
 import 'typeface-overpass-mono'
+import 'typeface-nunito'
+import 'typeface-roboto-mono'
 
 import Home from '../components/Home.vue'
 import Navbar from '../components/Navbar.vue'
