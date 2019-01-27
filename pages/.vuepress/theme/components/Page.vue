@@ -54,10 +54,12 @@
           </router-link>
           →
         </span>
+        <footer style="color: #aaa"><small class="time">&copy;2014 - 2019 CoderBot <a href="https://github.com/coderbotorg/docs/contributors"> contributors</a>. <a href="https://github.com/coderbotorg/docs">Sorgente</a>, <a href="https://github.com/CoderBotOrg/docs/blob/develop/README.md#license"> licenza</a>.</small></footer>
       </p>
     </div>
 
     <slot name="bottom"/>
+
   </main>
 </template>
 
