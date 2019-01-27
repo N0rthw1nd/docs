@@ -1,5 +1,6 @@
+# Configurazione
 
-### Messa in funzione
+## Messa in funzione
 
 Assicurarsi che la MicroSD sia inserita nell'apposito alloggiamento. Su uno dei due lati del CoderBot troverai un foto circolare con il **tasto di accensione**. Tienilo premuto per qualche secondo per davviare CoderBot. Un paio di led sulla scheda principale inizierano a lampeggiare.
 
@@ -34,13 +35,13 @@ La rete WiFi di CoderBot **non** ti permette di accedere ad internet, ma alla so
 
 Per accedere, apri un browser (Mozilla Firefox o Google Chrome) e digita il seguente indirizzo: `10.0.0.1:8080`. Premi Invio e potrai iniziare ad utilizzare CoderBot!
 
-### Ricarica della batteria
+## Ricarica della batteria
 
 La batteria può essere ricaricata con un qualsiasi caricatore USB per cellulari, ed un cavo Micro USB. Spegnere il CoderBot tenendo premuto il tasto di accensione e collegare il cavo Micro USB all'apposito alloggiamento laterale della batteria (è il foro opposto a quello che ospita il tasto di accensione).
 
 La ricarica è possibile anche collegando direttamente il cavo Micro USB ad un PC, ma sarà più lenta.
 
-### Aggiornarmento
+## Aggiornarmento
 
 ::: warning ATTENZIONE
 Prima di continuare, assicuratevi che la batteria sia carica almeno al **50%**.
@@ -49,9 +50,3 @@ Prima di continuare, assicuratevi che la batteria sia carica almeno al **50%**.
 Per aggiornare, disconnettersi dalla rete WiFi di CoderBot e ritornare a quella standard. Scaricate un pacchetto di aggiornamento dal [sito ufficiale](https://www.coderbot.org/repo). Una volta completato il download, riconnettetevi alla rete WiFi `coderbot` e tornate sull'applicazione di CoderBot. Dal menu laterale, scegliete *Impostazioni*. In basso, troverete la sezione *Aggiornamento*, dove potrete selezionare il pacchetto appena scaricato, attendere l'upload e lasciare che CoderBot faccia tutto il resto.
 
 Seguite le istruzioni a schermo dopo aver confermato l'aggiornamento.
-
-### Programmazione
-
-### Attività 
-
-### Configurazione

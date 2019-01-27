@@ -15,6 +15,11 @@ module.exports = {
   // E.g. <img :src="$withBase('/foo.png')" alt="foo">
   base: '/docs/',
   themeConfig: {
+    sidebar: [
+      ['/', 'Indice'],
+      ['/kit/', 'Montaggio'],
+      ['/manual/', 'Configurazione']
+    ],
     // Based on last git commit, offered by @vuepress/plugin-last-updated
     lastUpdated: 'Ultimo aggiornamento', // string | boolean
   }

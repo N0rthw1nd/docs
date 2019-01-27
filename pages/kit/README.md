@@ -1,4 +1,4 @@
-# Montaggio di CoderBot - Kit da assemblare
+# Montaggio - Kit da assemblare
 
 ## Elenco delle parti
 
