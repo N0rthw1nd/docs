@@ -4,6 +4,8 @@ This is the CoderBot documentation repository: a [Vue.js](https://vuejs.org/) ap
 
 The development is done on the dev branch, since master is hosting the production build, served by GitHub pages (automatically deployed by an npm script, see package.json).
 
+Image assets are hosted using Git LFS. Before cloning this repository, be sure you have it [installed](https://git-lfs.github.com/).
+
 ```bash
 git clone https://github.com/CoderBotOrg/docs.git
 npm install
