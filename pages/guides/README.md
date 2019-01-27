@@ -1,5 +1,10 @@
 # Guide
 
+Queste guide passo-passo ti guideranno nella composizione di un programma da zero.
+
+- [Muovere CoderBot](#muovere-coderbot)
+- [Programmiamo con i Sensori](#programmiamo-con-i-sensori)
+
 ## Muovere CoderBot
 Clicca su **Movimento** nell’elenco che trovi nella parte sinistra dello schermo.
 
