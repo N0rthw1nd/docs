@@ -1,4 +1,6 @@
-# Montaggio - Kit da assemblare
+# Montaggio del kit
+
+Seguendo questi passi, assemblerai CoderBot partendo dal suo kit.
 
 ## 0 - Elenco delle parti
 
@@ -93,7 +95,7 @@ La sfera deve essere fissata nella parte inferiore del telaio, ovvero dalla stes
 
 5.5 Collegare i cavi dei sensori a ultrasuoni: il cavo del sensore centrale, che passa sotto il raspberry e atteaverso la feritoria nella parte posteriore del supporto, deve essere inserito nel connettore più vicina alla parte anteriore. Il cavo del sensore sinistro deve essere posizionato nel connettore al centro e infine il cavo del sensore destro nel connettore più vicina alla parte posteriore.
 
-::: warning ATTENZIONE
+::: danger ATTENZIONE
 I connettori dei sensori devono **ASSOLUTAMENTE** essere inseriti in modo che il filo di colore rosso sia nella parte sinistra rispetto al robot.
 :::
 

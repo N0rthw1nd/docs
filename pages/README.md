@@ -4,7 +4,7 @@ Benvenuto nella documentazione di CoderBot. Qui troverai tutto il materiale disp
 <div style="font-size:18px">
 
 - [Istruzioni di montaggio](kit/)
-- [Descrizione](description/)
+- [Elenco delle parti](description/)
 - [Manuale di configurazione](manual/)
   - [Avvio](manual/#messa-in-funzione)
   - [Ricarica della Batteria](manual/#ricarica-della-batteria)
