@@ -18,8 +18,8 @@ module.exports = {
     sidebar: [
       ['/', 'Indice'],
       ['/kit/', 'Montaggio'],
-      ['/description/', 'Descrizione'],
-      ['/manual/', 'Configurazione']
+      ['/description/', 'Elenco delle parti'],
+      ['/manual/', 'Configurazione'],
       ['/guides/', 'Guide']
     ],
     // Based on last git commit, offered by @vuepress/plugin-last-updated
