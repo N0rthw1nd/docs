@@ -1,6 +1,6 @@
 # Montaggio - Kit da assemblare
 
-## Elenco delle parti
+## 0 - Elenco delle parti
 
 - 1 Raspberry Pi Model B 3
 - 1 Scheda controllo motori e sensori
@@ -97,7 +97,7 @@ La sfera deve essere fissata nella parte inferiore del telaio, ovvero dalla stes
 I connettori dei sensori devono **ASSOLUTAMENTE** essere inseriti in modo che il filo di colore rosso sia nella parte sinistra rispetto al robot.
 :::
 
-## 6 Telecamera
+## 6 - Telecamera
 
 6.1 Posizionare la telecamera sul supporto in modo che la finestrella, asimmetrica, lasci scoperto il led sulla parte destra della scheda della telecamera.
 
@@ -105,7 +105,7 @@ I connettori dei sensori devono **ASSOLUTAMENTE** essere inseriti in modo che il
 
 6.3 Far passare il cavo piatto dalla telecamera fino al farlo scorrere nel connettore posto sul Raspberry. Verificare che la linguetta di fissaggio posta sul connettore sia estratta. Una volta che il cavo piatto è ben inserito nel connettore, spingere la linguetta verso il basso, in modo da fissare il cavo.
 
-## 7 Altoparlante e coperchio
+## 7 - Altoparlante e coperchio
 
 7.1 Far passare il cavetto con il jack audio da 3.5” dall'interno del telaio all'esterno, attraverso la finestra laterale della paratia.
 
@@ -119,7 +119,7 @@ I connettori dei sensori devono **ASSOLUTAMENTE** essere inseriti in modo che il
 
 7.6 Collegare il connettore Micro USB all'altoparlante.
 
-## 8 Ruote
+## 8 - Ruote
 
 8.1 Montare le ruote facendole scorrere nei semiassi, facendo attenzione a non forzare il telaio. Si consiglia di fare una leggera forza agendo direttamente su motori e ruote.
 

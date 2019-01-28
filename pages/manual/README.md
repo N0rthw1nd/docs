@@ -2,7 +2,7 @@
 
 ## Messa in funzione
 
-Assicurarsi che la MicroSD sia inserita nell'apposito alloggiamento. Su uno dei due lati del CoderBot troverai un foto circolare con il **tasto di accensione**. Tienilo premuto per qualche secondo per davviare CoderBot. Un paio di led sulla scheda principale inizierano a lampeggiare.
+Su uno dei due lati del CoderBot troverai un foto circolare con il **tasto di accensione**. Tienilo premuto per qualche secondo per davviare CoderBot. Un paio di led sulla scheda principale, posta all'interno del telaio, inizierano a lampeggiare.
 
 <img :src="$withBase('/images/powerbutton.jpg')">
 
@@ -10,13 +10,12 @@ Nel caso in cui la batteria sia completamente scarica, il display nella parte in
 
 <img :src="$withBase('/images/batterypercentage.jpg')">
 
-Dopo circa 30 secondi, sarà disponibile una rete WiFi a cui connettersi.
+Dopo circa un minuto, sarà disponibile una rete WiFi a cui connettersi.
 Da un PC o tablet, fate click sull'icona WiFi
 
 <img :src="$withBase('/images/wifi1.png')">
 
-
-Apparirà un elenco di possibili connessioni WiFi. Il nome di una di esse sarà “coderbot” seguito dal numero che trovi nella parte inferiore del CoderBot.
+Apparirà un elenco di possibili connessioni WiFi. Il nome di una di esse sarà “coderbot_” seguito da un numero di quattro cifre specifico per ogni CoderBot.
 
 Se non la vedi aspetta qualche secondo e torna al passo precedente.
 
@@ -33,11 +32,15 @@ Adesso il tuo PC è connesso a CoderBot!
 La rete WiFi di CoderBot **non** ti permette di accedere ad internet, ma alla sola applicazione di CoderBot. Questo vuol dire che nessun sito funzionerà e se hai bisogno di cercare qualcosa o di navigare su internet dovrai disconnetterti e tornare sulla tua rete WiFi. Quando hai concluso e vuoi tornare ad usare CoderBot, ripeti i passi appena mostrati.
 :::
 
-Per accedere, apri un browser (Mozilla Firefox o Google Chrome) e digita il seguente indirizzo: `10.0.0.1:8080`. Premi Invio e potrai iniziare ad utilizzare CoderBot!
+Per accedere, apri un browser (Mozilla Firefox o Google Chrome) e digita il seguente indirizzo: `coder.bot`. Premi Invio e potrai iniziare ad utilizzare CoderBot!
 
 ## Ricarica della batteria
 
 La batteria può essere ricaricata con un qualsiasi caricatore USB per cellulari, ed un cavo Micro USB. Spegnere il CoderBot tenendo premuto il tasto di accensione e collegare il cavo Micro USB all'apposito alloggiamento laterale della batteria (è il foro opposto a quello che ospita il tasto di accensione).
+
+::: tip SUGGERIMENTO
+Durante la carica è consigliabile tenere scollegato il cavo di alimentazione del CoderBot posto sulla parte destra del robot all'altezza della finestra sulla paratia laterale.
+:::
 
 La ricarica è possibile anche collegando direttamente il cavo Micro USB ad un PC, ma sarà più lenta.
 
