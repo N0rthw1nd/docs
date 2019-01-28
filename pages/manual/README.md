@@ -44,7 +44,7 @@ Durante la carica è consigliabile tenere scollegato il cavo di alimentazione de
 
 La ricarica è possibile anche collegando direttamente il cavo Micro USB ad un PC, ma sarà più lenta.
 
-## Aggiornarmento
+## Aggiornamento
 
 ::: warning ATTENZIONE
 Prima di continuare, assicuratevi che la batteria sia carica almeno al **50%**.

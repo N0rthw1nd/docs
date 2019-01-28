@@ -20,6 +20,7 @@ module.exports = {
       ['/kit/', 'Montaggio'],
       ['/description/', 'Descrizione'],
       ['/manual/', 'Configurazione']
+      ['/guides/', 'Guide']
     ],
     // Based on last git commit, offered by @vuepress/plugin-last-updated
     lastUpdated: 'Ultimo aggiornamento', // string | boolean
