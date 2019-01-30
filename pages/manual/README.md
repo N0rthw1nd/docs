@@ -50,7 +50,6 @@ Verificare che la scritta "in" lampeggi.
 
 <img :src="$withBase('/images/manual/batt_02.jpg')">
 
-
 La ricarica è possibile anche collegando direttamente il cavo Micro USB ad un PC, ma sarà più lenta.
 
 ## Aggiornamento
