@@ -53,9 +53,21 @@ La ricarica è possibile anche collegando direttamente il cavo Micro USB ad un P
 ## Aggiornamento
 
 ::: warning ATTENZIONE
-Prima di continuare, assicuratevi che la batteria sia carica almeno al **50%**.
+Prima di continuare, assicuratevi che la batteria sia carica almeno al **50%**
 :::
 
-Per aggiornare, disconnettersi dalla rete WiFi di CoderBot e ritornare a quella standard. Scaricate un pacchetto di aggiornamento dal [sito ufficiale](https://www.coderbot.org/repo). Una volta completato il download, riconnettetevi alla rete WiFi `coderbot` e tornate sull'applicazione di CoderBot. Dal menu laterale, scegliete *Impostazioni*. In basso, troverete la sezione *Aggiornamento*, dove potrete selezionare il pacchetto appena scaricato, attendere l'upload e lasciare che CoderBot faccia tutto il resto.
+Per aggiornare, disconnettersi dalla rete WiFi di CoderBot e ritornare a quella standard. Scaricate un pacchetto di aggiornamento dal [sito ufficiale](https://www.coderbot.org/repo). Una volta completato il download, riconnettetevi alla rete WiFi `coderbot` e tornate sull'applicazione di CoderBot. Dal menu laterale, scegliete *Impostazioni*. In basso, troverete la sezione *Aggiornamento*:
 
-Seguite le istruzioni a schermo dopo aver confermato l'aggiornamento.
+<img :src="$withBase('/images/app/update.png')">
+
+Cliccando sul campo descritto con *Seleziona il pacchetto di aggiornamento* si aprirà una finestra di dialogo che vi permetterà di selezionare il pacchetto di aggiornamento appena scaricato. Fate doppio click sul file e assicuratevi che il nome visualizzato dopo la selezione sia corretto.
+
+<img :src="$withBase('/images/app/selected_update.png')">
+
+Premete su **Conferma** e attendete che venga eseguito il caricamento del pacchetto. Una percentuale visualizzerà l'avanzamento di questa fase:
+
+<img :src="$withBase('/images/app/uploading_update.png')">
+
+Alla fine di questa fase, CoderBot verrà riavviato per applicare l'aggiornamento.
+
+Potrebbero volerci alcuni minuti per completare l'operazione. Ricordate di riconnettervi alla rete WiFi di CoderBot per far tornare attiva l'applicazione.
