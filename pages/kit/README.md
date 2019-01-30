@@ -2,7 +2,7 @@
 
 Seguendo questi passi, assemblerai CoderBot partendo dal suo kit.
 
-## 0 - Elenco delle parti
+## 0 - Elenco delle componenti del kit
 
 <img :src="$withBase('/images/kit/kit_01.jpg')">
 
@@ -33,7 +33,7 @@ Seguendo questi passi, assemblerai CoderBot partendo dal suo kit.
 
 <img :src="$withBase('/images/kit/kit_03.jpg')">
 
-- 1.2 Posizionare i motori in modo che il perno bianco sia rivolto all'esterno della base e che il filo di alimentazione rosso sia vicino alla base, il rosso più in altro.
+- 1.2 Posizionare i motori in modo che il perno bianco sia rivolto all'esterno della base e che il filo di alimentazione rosso sia vicino alla base, il rosso più in alto.
 
 <img :src="$withBase('/images/kit/kit_04.jpg')">
 
@@ -137,7 +137,8 @@ Nella foto a destra: particolare di una vite con distanziale fissato correttamen
 - 5.2 Collegare i cavi dei sensori a ultrasuoni: il cavo del sensore centrale, che passa sotto il raspberry e atteaverso la feritoria nella parte posteriore del supporto, deve essere inserito nel connettore più vicina alla parte anteriore. Il cavo del sensore sinistro deve essere posizionato nel connettore al centro e infine il cavo del sensore destro nel connettore più vicina alla parte posteriore.
 
 ::: danger ATTENZIONE
-I connettori dei sensori devono **ASSOLUTAMENTE** essere inseriti in modo che il filo di colore rosso sia nella parte sinistra rispetto al robot.
+I connettori dei sensori devono **ASSOLUTAMENTE** essere inseriti in modo che **il filo di colore rosso sia nella parte sinistra** rispetto al robot.
+Scambiare il verso del connettore comporta invertire la polarità dell'alimentazione del sensore che, oltre a non funzionare, potrebbe danneggiarsi.
 :::
 
 <img :src="$withBase('/images/kit/kit_32.jpg')">
@@ -174,7 +175,7 @@ I connettori dei sensori devono **ASSOLUTAMENTE** essere inseriti in modo che il
 
 <img :src="$withBase('/images/kit/kit_30.jpg')">
 
-- 6.5 Infilare, avendo cura di fare in modo che le parti si impegnino correttamente l'una nell'altra il supporto telecamera nelle scanalature sulle paratie, fino a che non il supporto non sia incarstrato.
+- 6.5 Infilare, avendo cura di fare in modo che le parti si incastrino correttamente l'una nell'altra il supporto telecamera nelle scanalature sulle paratie, fino a che non il supporto non sia ben incastrato.
 
 <img :src="$withBase('/images/kit/kit_31.jpg')">
 

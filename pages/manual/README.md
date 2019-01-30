@@ -2,7 +2,7 @@
 
 ## Messa in funzione
 
-Su uno dei due lati del CoderBot troverai un foto circolare con il **tasto di accensione**. Tienilo premuto per qualche secondo per davviare CoderBot. Un paio di led sulla scheda principale, posta all'interno del telaio, inizierano a lampeggiare.
+Su uno dei due lati del CoderBot troverai un foto circolare con il **tasto di accensione**. Tienilo premuto per qualche secondo per avviare CoderBot. Un paio di led sulla scheda principale, posta all'interno del telaio, inizierano a lampeggiare.
 
 <img :src="$withBase('/images/manual/powerbutton.jpg')">
 
@@ -32,7 +32,7 @@ Adesso il tuo PC è connesso a CoderBot!
 La rete WiFi di CoderBot **non** ti permette di accedere ad internet, ma alla sola applicazione di CoderBot. Questo vuol dire che nessun sito funzionerà e se hai bisogno di cercare qualcosa o di navigare su internet dovrai disconnetterti e tornare sulla tua rete WiFi. Quando hai concluso e vuoi tornare ad usare CoderBot, ripeti i passi appena mostrati.
 :::
 
-Per accedere, apri un browser (Mozilla Firefox o Google Chrome) e digita il seguente indirizzo: `coder.bot`. Premi Invio e potrai iniziare ad utilizzare CoderBot!
+Per accedere, apri un browser (Mozilla Firefox o Google Chrome) e digita il seguente indirizzo: `http://coder.bot`. Premi Invio e potrai iniziare ad utilizzare CoderBot!
 
 ## Ricarica della batteria
 
@@ -44,9 +44,12 @@ La batteria può essere ricaricata con un qualsiasi caricatore USB per cellulari
 Durante la carica è consigliabile tenere scollegato il cavo di alimentazione del CoderBot posto sulla parte destra del robot all'altezza della finestra sulla paratia laterale.
 :::
 
-<img :src="$withBase('/images/manual/batt_02.jpg')">
+<img :src="$withBase('/images/manual/batt_03.jpg')">
 
 Verificare che la scritta "in" lampeggi.
+
+<img :src="$withBase('/images/manual/batt_02.jpg')">
+
 
 La ricarica è possibile anche collegando direttamente il cavo Micro USB ad un PC, ma sarà più lenta.
 

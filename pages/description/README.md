@@ -1,6 +1,6 @@
-# Elenco delle parti
+# Descrizione delle parti
 
-Questo è l'elenco delle parti di CoderBot. Quando ti viene indicata una di esse nelle altre guide, fai riferimento a questa pagina per trovarle.
+Qui sono descritte le parti di cui è composto CoderBot. Quando ti viene indicata una di esse nelle altre guide, fai riferimento a questa pagina per trovarle.
 
 <img :src="$withBase('/images/description/coderbotfront.jpg')">
 
