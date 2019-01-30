@@ -33,7 +33,7 @@ Seguendo questi passi, assemblerai CoderBot partendo dal suo kit.
 
 <img :src="$withBase('/images/kit/kit_03.jpg')">
 
-- 1.2 Posizionare i motori in modo che il perno bianco sia rivolto all'esterno della base e che il filo di alimentazione rosso sia vicino alla base, il rosso più in altro.
+- 1.2 Posizionare i motori in modo che il perno bianco sia rivolto all'esterno della base e che il filo di alimentazione rosso sia vicino alla base, il rosso più in alto.
 
 <img :src="$withBase('/images/kit/kit_04.jpg')">
 
