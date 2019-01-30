@@ -2,8 +2,8 @@
 
 ## Messa in funzione
 
-Su uno dei due lati del CoderBot troverai un foto circolare con il **tasto di accensione**. Tienilo premuto per qualche secondo per davviare CoderBot. Un paio di led sulla scheda principale, posta all'interno del telaio, inizierano a lampeggiare.
-
+Su uno dei due lati del CoderBot troverai un foto circolare con il **tasto di accensione**. Tienilo premuto per qualche secondo per avviare CoderBot. Un paio di led sulla scheda principale, posta all'interno del telaio, inizierano a lampeggiare.
+/
 <img :src="$withBase('/images/manual/powerbutton.jpg')">
 
 Nel caso in cui la batteria sia completamente scarica, il display nella parte inferiore di CoderBot, accessibile capovolgendolo, inizierà a lampeggiare visualizzando uno `0`. In questo caso, dovrai [ricaricare la batteria](#ricarica-della-batteria) prima di continuare. Altrimenti, il display visualizza la percentuale di carica rimanente.
