@@ -15,7 +15,7 @@ Da un PC o tablet, fate click sull'icona WiFi
 
 <img :src="$withBase('/images/manual/wifi1.png')">
 
-Apparirà un elenco di possibili connessioni WiFi. Il nome di una di esse sarà “coderbot_” seguito da un numero di quattro cifre specifico per ogni CoderBot.
+Apparirà un elenco di possibili connessioni WiFi. Il nome di una di esse sarà `coderbot_` seguito da un numero di quattro cifre specifico per ogni CoderBot.
 
 Se non la vedi aspetta qualche secondo e torna al passo precedente.
 
@@ -23,7 +23,7 @@ Se non la vedi aspetta qualche secondo e torna al passo precedente.
 
 Clicca sul nome della rete WiFi creata dal tuo CoderBot e poi sul tasto *Connetti*.
 
-Ti verrà richiesta una chiave di sicurezza. Scrivi “coderbot” e clicca sul tasto “Avanti”.
+Ti verrà richiesta una chiave di sicurezza. Scrivi `coderbot` e clicca sul tasto **Avanti**.
 
 <img :src="$withBase('/images/manual/wifi3.png')">
 
@@ -70,4 +70,4 @@ Premete su **Conferma** e attendete che venga eseguito il caricamento del pacche
 
 Alla fine di questa fase, CoderBot verrà riavviato per applicare l'aggiornamento.
 
-Potrebbero volerci alcuni minuti per completare l'operazione. Ricordate di riconnettervi alla rete WiFi di CoderBot per far tornare attiva l'applicazione.
+Potrebbero volerci alcuni minuti per completare l'operazione. Ricordati di riconnettervi alla rete WiFi di CoderBot per far tornare attiva l'applicazione.
