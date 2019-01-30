@@ -32,7 +32,7 @@ Adesso il tuo PC è connesso a CoderBot!
 La rete WiFi di CoderBot **non** ti permette di accedere ad internet, ma alla sola applicazione di CoderBot. Questo vuol dire che nessun sito funzionerà e se hai bisogno di cercare qualcosa o di navigare su internet dovrai disconnetterti e tornare sulla tua rete WiFi. Quando hai concluso e vuoi tornare ad usare CoderBot, ripeti i passi appena mostrati.
 :::
 
-Per accedere, apri un browser (Mozilla Firefox o Google Chrome) e digita il seguente indirizzo: `coder.bot`. Premi Invio e potrai iniziare ad utilizzare CoderBot!
+Per accedere, apri un browser (Mozilla Firefox o Google Chrome) e digita il seguente indirizzo: `http://coder.bot`. Premi Invio e potrai iniziare ad utilizzare CoderBot!
 
 ## Ricarica della batteria
 

@@ -137,10 +137,9 @@ Nella foto a destra: particolare di una vite con distanziale fissato correttamen
 - 5.2 Collegare i cavi dei sensori a ultrasuoni: il cavo del sensore centrale, che passa sotto il raspberry e atteaverso la feritoria nella parte posteriore del supporto, deve essere inserito nel connettore più vicina alla parte anteriore. Il cavo del sensore sinistro deve essere posizionato nel connettore al centro e infine il cavo del sensore destro nel connettore più vicina alla parte posteriore.
 
 ::: danger ATTENZIONE
-I connettori dei sensori devono **ASSOLUTAMENTE** essere inseriti in modo che il filo di colore rosso sia nella parte sinistra rispetto al robot.
+Assicurarsi dell'orientamento dei connettori: devono essere inseriti in modo che i fili di colore bianco siano dal lato della scritta CoderBot stampata sulla scheda, come mostrato in figura.
+<img :src="$withBase('/images/kit/connectors_side.jpg')">
 :::
-
-<img :src="$withBase('/images/kit/kit_32.jpg')">
 
 - 5.3 Posizionare la batteria all'interno del telaio, sotto il Raspberry; la batteria deve essere posizionata in modo che il display dello stato di carica sia rivolto verso il basso e i connettori USB verso la parte posteriore.
 
