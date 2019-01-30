@@ -1,6 +1,6 @@
 # CoderBot - Descrizione
 
-<img :src="$withBase('/images/coderbotfront.jpg')">
+<img :src="$withBase('/images/description/coderbotfront.jpg')">
 
 ## 1 - Telecamera
 
@@ -8,7 +8,7 @@
 
 ## 3 - Motori e Ruote
 
-<img :src="$withBase('/images/coderbotsideright.jpg')">
+<img :src="$withBase('/images/description/coderbotsideright.jpg')">
 
 ## 4 - Sensore a ultrasuoni laterale
 
@@ -16,7 +16,7 @@
 
 ## 6 - Altoparlante
 
-<img :src="$withBase('/images/coderbotsideleft.jpg')">
+<img :src="$withBase('/images/description/coderbotsideleft.jpg')">
 
 ## 7 - Sensore a ultrasuoni laterale
 
