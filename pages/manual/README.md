@@ -4,28 +4,28 @@
 
 Su uno dei due lati del CoderBot troverai un foto circolare con il **tasto di accensione**. Tienilo premuto per qualche secondo per davviare CoderBot. Un paio di led sulla scheda principale, posta all'interno del telaio, inizierano a lampeggiare.
 
-<img :src="$withBase('/images/powerbutton.jpg')">
+<img :src="$withBase('/images/manual/powerbutton.jpg')">
 
 Nel caso in cui la batteria sia completamente scarica, il display nella parte inferiore di CoderBot, accessibile capovolgendolo, inizierà a lampeggiare visualizzando uno `0`. In questo caso, dovrai [ricaricare la batteria](#ricarica-della-batteria) prima di continuare. Altrimenti, il display visualizza la percentuale di carica rimanente.
 
-<img :src="$withBase('/images/batterypercentage.jpg')">
+<img :src="$withBase('/images/manual/batterypercentage.jpg')">
 
 Dopo circa un minuto, sarà disponibile una rete WiFi a cui connettersi.
 Da un PC o tablet, fate click sull'icona WiFi
 
-<img :src="$withBase('/images/wifi1.png')">
+<img :src="$withBase('/images/manual/wifi1.png')">
 
 Apparirà un elenco di possibili connessioni WiFi. Il nome di una di esse sarà “coderbot_” seguito da un numero di quattro cifre specifico per ogni CoderBot.
 
 Se non la vedi aspetta qualche secondo e torna al passo precedente.
 
-<img :src="$withBase('/images/wifi2.png')">
+<img :src="$withBase('/images/manual/wifi2.png')">
 
 Clicca sul nome della rete WiFi creata dal tuo CoderBot e poi sul tasto *Connetti*.
 
 Ti verrà richiesta una chiave di sicurezza. Scrivi “coderbot” e clicca sul tasto “Avanti”.
 
-<img :src="$withBase('/images/wifi3.png')">
+<img :src="$withBase('/images/manual/wifi3.png')">
 
 Adesso il tuo PC è connesso a CoderBot!
 ::: warning ATTENZIONE
@@ -38,9 +38,15 @@ Per accedere, apri un browser (Mozilla Firefox o Google Chrome) e digita il segu
 
 La batteria può essere ricaricata con un qualsiasi caricatore USB per cellulari, ed un cavo Micro USB. Spegnere il CoderBot tenendo premuto il tasto di accensione e collegare il cavo Micro USB all'apposito alloggiamento laterale della batteria (è il foro opposto a quello che ospita il tasto di accensione).
 
+<img :src="$withBase('/images/manual/batt_01.jpg')">
+
 ::: tip SUGGERIMENTO
 Durante la carica è consigliabile tenere scollegato il cavo di alimentazione del CoderBot posto sulla parte destra del robot all'altezza della finestra sulla paratia laterale.
 :::
+
+<img :src="$withBase('/images/manual/batt_02.jpg')">
+
+Verificare che la scritta "in" lampeggi.
 
 La ricarica è possibile anche collegando direttamente il cavo Micro USB ad un PC, ma sarà più lenta.
 
