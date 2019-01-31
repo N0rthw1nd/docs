@@ -38,6 +38,10 @@ Per accedere, apri un browser (Mozilla Firefox o Google Chrome) e digita il segu
 
 La batteria può essere ricaricata con un qualsiasi caricatore USB per cellulari, ed un cavo Micro USB. Spegnere il CoderBot tenendo premuto il tasto di accensione e collegare il cavo Micro USB all'apposito alloggiamento laterale della batteria (è il foro opposto a quello che ospita il tasto di accensione).
 
+::: tip SUGGERIMENTO
+Se non disponi di un cavo Micro USB, puoi usare uno di quelli che collegano la batteria, all'interno del roboti (quelli che hai usato durante il [montaggio della batteria](/kit/#_5-batteria-e-collegamenti), punto 5.4). Ricorda di rimettere tutto al loro posto quando la carica è conclusa.
+:::
+
 <img :src="$withBase('/images/manual/batt_01.jpg')">
 
 ::: tip SUGGERIMENTO
