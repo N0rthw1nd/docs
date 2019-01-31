@@ -18,8 +18,17 @@ Qui sono descritte le parti di cui è composto CoderBot. Quando ti viene indicat
 
 7. Sensore a ultrasuoni laterale
 8. Interruttore accensione / spegnimento principale
+
+<img :src="$withBase('/images/description/coderbotspeakercharge.jpg')">
+
 9. Connettore USB per ricarica altoparlante
+
+<img :src="$withBase('/images/description/coderbotspeakerpower.jpg')">
+
 10. Interruttore accensione / spegnimento altoparlante
+
+<img :src="$withBase('/images/description/coderbotspeakermode.jpg')">
+
 11. Pulsante selezione modalità funzionamento altoparlante
 
 
