@@ -18,7 +18,7 @@ module.exports = {
     sidebar: [
       ['/', 'Indice'],
       ['/kit/', 'Montaggio'],
-      ['/description/', 'Descrizione delle parti'],
+      ['/description/', 'Elenco delle parti'],
       ['/manual/', 'Configurazione'],
       ['/guides/', 'Guide']
     ],
