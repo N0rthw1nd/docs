@@ -20,6 +20,7 @@ module.exports = {
       ['/kit/', 'Montaggio'],
       ['/description/', 'Elenco delle parti'],
       ['/manual/', 'Configurazione'],
+      ['/usermanual/', 'Manuale d\'uso'],
       ['/guides/', 'Guide']
     ],
     // Based on last git commit, offered by @vuepress/plugin-last-updated

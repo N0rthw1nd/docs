@@ -77,3 +77,7 @@ Premete su **Conferma** e attendete che venga eseguito il caricamento del pacche
 Alla fine di questa fase, CoderBot verrà riavviato per applicare l'aggiornamento.
 
 Potrebbero volerci alcuni minuti per completare l'operazione. Ricordati di riconnettervi alla rete WiFi di CoderBot per far tornare attiva l'applicazione.
+
+## Impostazioni
+
+TODO
