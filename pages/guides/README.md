@@ -1,6 +1,6 @@
 # Guide
 
-Queste guide passo-passo ti guideranno nella composizione di un programma da zero.
+Queste guide passo-passo ti guideranno nella composizione di un programma da zero. Per iniziare a scrivere un programma, apri la vista **Programmazione** dalla pagina principale dell'applicazione CoderBot, come [descritto](/usermanual/#programmazione) qui.
 
 - [Muovere CoderBot](#muovere-coderbot)
 - [Programmiamo con i Sensori](#programmiamo-con-i-sensori)
