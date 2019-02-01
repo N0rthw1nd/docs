@@ -2,28 +2,28 @@
 
 Seguendo questi passi, assemblerai CoderBot partendo dal suo kit.
 
-## 0 - Elenco delle componenti del kit
+## Elenco delle componenti del kit
 
 <img :src="$withBase('/images/kit/kit_01.jpg')">
 
-- 1 Raspberry Pi Model B 3 + Scheda controllo motori e sensori + Microfono USB
-- 2 Altoparlante autoalimentato
-- 3 Batteria al litio ricaricabile
-- 4 Sensori a ultrasuoni + cavi di collegamento
-- 5 Telecamera + cavo piatto
-- 6 Cavo USB - MicroUSB - angolo 90° (per alimentazione Raspberry)
-- 7 Cavo USB - MicroUSB - piatto (per alimentazione motori)
-- 8 Cavo USB - MicroUSB - piatto (per ricarica batteria)
-- 9 Telaio legno/metallo
-- 10 Motori + cavi di collegamento
-- 11 Ruote
-- 12 Sfera
-- 13 6 Viti M3 10mm
-- 14 3 Viti M3 30mm
-- 15 6 Dadi M3 30mm
-- 16 2 Distanziali 20mm
-- 17 4 Viti M2.5 12mm + 4 Distanziali cavi 4mm + 4 Dadi M2.5
-- 18 Viti M2 6mm +Dadi M2
+1. Raspberry Pi Model B 3 + Scheda controllo motori e sensori + Microfono USB
+2. Altoparlante autoalimentato
+3. Batteria al litio ricaricabile
+4. Sensori a ultrasuoni + cavi di collegamento
+5. Telecamera + cavo piatto
+6. Cavo USB - MicroUSB - angolo 90° (per alimentazione Raspberry)
+7. Cavo USB - MicroUSB - piatto (per alimentazione motori)
+8. Cavo USB - MicroUSB - piatto (per ricarica batteria)
+9. Telaio legno/metallo
+10. Motori + cavi di collegamento
+11. Ruote
+12. Sfera
+13. 6 Viti M3 10mm
+14. 3 Viti M3 30mm
+15. 6 Dadi M3 30mm
+16. 2 Distanziali 20mm
+17. 4 Viti M2.5 12mm + 4 Distanziali cavi 4mm + 4 Dadi M2.5
+18. Viti M2 6mm +Dadi M2
 
 ## 1 - Motori
 
