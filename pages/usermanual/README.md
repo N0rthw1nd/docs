@@ -50,7 +50,7 @@ TODO ADDPIC
 
 ## Attività
 
-Le attività di permettono di personalizzare molti aspetti della visuale Programmazione.
+Le attività di permettono di personalizzare molti aspetti della visuale Programmazione. Ogni attività è un'ambiente contenuto e limitato. Ogni modifica e personalizzazione rimarrà sempre e solo in quell'attività.
 
 Per iniziare, **crea** un'attività dal menù Attività. Questo è l'editor Attività:
 
