@@ -1,9 +1,10 @@
-Benvenuto nella documentazione di CoderBot. 
+#### Benvenuto nella documentazione di CoderBot!
 
 Qui troverai tutto il materiale disponibile per montare, configurare ed imparare ad utilizzare il tuo CoderBot sfruttando al meglio le sue funzionalità.
 
+<div style="font-size:19px;">
 
-<div style="font-size:18px">
+### Contenuti
 
 - [Istruzioni di montaggio](kit/)
 - [Elenco delle parti](description/)
@@ -14,7 +15,7 @@ Qui troverai tutto il materiale disponibile per montare, configurare ed imparare
     - da software
     - da microsd
   - [Aggiornamento](manual/#aggiornamento)
-  - Configurazione
+  - [Impostazioni](manual/#impostazioni)
 - Manuale d'uso
     - Programmazione
     - Attività
@@ -23,6 +24,9 @@ Qui troverai tutto il materiale disponibile per montare, configurare ed imparare
   - [Programmare con i sensori](guides/#programmiamo-con-i-sensori)
 
 </div>
+
+Se ne hai bisogno, puoi accedere a queste pagine direttamente dall'applicazione di CoderBot, cliccando su **Guida**, nella pagina principale.
+
 
 Alcuni link utili:
 
