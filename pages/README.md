@@ -1,4 +1,6 @@
-Benvenuto nella documentazione di CoderBot. Qui troverai tutto il materiale disponibile per imparare ad utilizzare e configurare CoderBot sfruttando al meglio le sue funzionalità.
+Benvenuto nella documentazione di CoderBot. 
+
+Qui troverai tutto il materiale disponibile per montare, configurare ed imparare ad utilizzare il tuo CoderBot sfruttando al meglio le sue funzionalità.
 
 
 <div style="font-size:18px">
