@@ -2,7 +2,8 @@
 
 Questa parte copre l'utilizzo vero e proprio dell'applicazione. [Connetteti alla rete WiFi](/manual/#messa-in-funzione) di CoderBot e accedi a [coder.bot](http://coder.bot). Dovresti essere di fronte alla schermata principale di CoderBot:
 
-TODO ADDPIC
+<img :src="$withBase('/images/usermanual/landing.png')">
+
 
 ## Programmazione
 
@@ -13,13 +14,19 @@ Il modo più semplice di scrivere un programma, è cliccare sul bottone Programm
 
 Questo ti farà accedere alla visuale Programmazione, composta da questa vista:
 
-TODO ADDPIC
+<img :src="$withBase('/images/usermanual/program_view.png')">
+
 
 A sinistra, trovi il *Pannello degli strumenti* di Blockly. In base all'impostazione **Livello Pannello degli strumenti Blockly**, accessibile nelle [impostazioni globali](/manual/#impostazioni) di CoderBot, ti verranno visualizzati pià o meno gruppi di comandi, contenenti più o meno blocchi. Questa impostazione modifica anche come vengono visualizzati i singoli blocchi.
 
-Ad esempio, questo è il Pannelo degli strumenti **base**:
+Ad esempio, questo è il Pannelo degli strumenti **movimento**:
 
-TODO ADDPIC
+<img :src="$withBase('/images/usermanual/toolbox_mov.png')">
+
+Mentre questa è quella **base**:
+
+<img :src="$withBase('/images/usermanual/toolbox_base.png')">
+
 
 La parte destra, inizialmente vuota, è dove trascinerai i blocchi per comporre il tuo programma.
 
