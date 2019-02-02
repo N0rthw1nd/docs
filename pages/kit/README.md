@@ -175,11 +175,11 @@ Assicurarsi dell'orientamento dei connettori: devono essere inseriti in modo che
 
 <img :src="$withBase('/images/kit/kit_30.jpg')">
 
-<<<<<<< HEAD
+
 - 6.5 Infilare, avendo cura di fare in modo che le parti si incastrino correttamente l'una nell'altra il supporto telecamera nelle scanalature sulle paratie, fino a che non il supporto non sia ben incastrato.
-=======
-- 6.5 Infilare, avendo cura di fare in modo che le parti si impegnino correttamente l'una nell'altra il supporto telecamera nelle scanalature sulle paratie, fino a che non il supporto non sia incastrato.
->>>>>>> bb7efc585a1588bfa1f9a1955d301258add97fb0
+
+
+
 
 <img :src="$withBase('/images/kit/kit_31.jpg')">
 
