@@ -90,7 +90,7 @@ Nella foto a destra: particolare di una vite con distanziale fissato correttamen
 
 <img :src="$withBase('/images/kit/kit_14.jpg')">
 
-- 3.5 Avvitare e serrare i dati alle viti sporgenti sotto la base in legno.
+- 3.5 Avvitare e serrare i dadi alle viti sporgenti sotto la base in legno.
 
 ## 4 - Paratie anteriore e laterali
 
@@ -104,13 +104,16 @@ Nella foto a destra: particolare di una vite con distanziale fissato correttamen
 
 <img :src="$withBase('/images/kit/kit_17.jpg')">
 
-<img :src="$withBase('/images/kit/kit_21.jpg')">
-
-- 4.2 Posizionare i sensori sonar nei fori presenti nelle paratie. Il sensore da posiziore nella paratia anteriore è quello con il connettore perpendicolare alla scheda.
-
 <img :src="$withBase('/images/kit/kit_19.jpg')">
 
 <img :src="$withBase('/images/kit/kit_20.jpg')">
+
+- 4.2 Posizionare i sensori sonar nei fori presenti nelle paratie. Il sensore da posiziore nella paratia anteriore è quello con il connettore perpendicolare alla scheda.
+::: warning ATTENZIONE
+E' possibile che sia necessario esercitare una cera forza per far entrare i sensori nelle paratie, sia quella in legno che quelle in metallo.
+:::
+
+<img :src="$withBase('/images/kit/kit_21.jpg')">
 
 - 4.3 Appoggiare la paratia anteriore in modo da farla incastrare nelle feritoie sulle paratie laterali.
 
@@ -130,7 +133,7 @@ Nella foto a destra: particolare di una vite con distanziale fissato correttamen
 
 <img :src="$withBase('/images/kit/kit_26.jpg')">
 
-- 5.1 Collegare i cavi di alimentazione dei motori: quello del motore destro sullo spinotto più destra.
+- 5.1 Collegare i cavi di alimentazione dei motori: quello del motore destro sullo spinotto più a destra.
 
 <img :src="$withBase('/images/kit/kit_25.jpg')">
 
@@ -145,7 +148,7 @@ Assicurarsi dell'orientamento dei connettori: devono essere inseriti in modo che
 
 - 5.3 Posizionare la batteria all'interno del telaio, sotto il Raspberry; la batteria deve essere posizionata in modo che il display dello stato di carica sia rivolto verso il basso e i connettori USB verso la parte posteriore.
 
-<img :src="$withBase('/images/kit/kit_33.jpg')">
+<img :src="$withBase('/images/kit/kit_32.jpg')">
 
 - 5.4 Collegare i cavi USB - Micro USB in dalla batteria al Raspberry e alla scheda motori. Il cavo più lungo, con i connettori orientati a 90°, deve essere fatto passare dall'interno del telaio all'esterno della finestra laterla per poi rientrare subito ed essere inserito nella presa di alimentazione del Raspberry. 
 
@@ -164,6 +167,10 @@ Assicurarsi dell'orientamento dei connettori: devono essere inseriti in modo che
 <img :src="$withBase('/images/kit/kit_27b.jpg')">
 
 - 6.2 Fissare la telecamera con le viti M2 6mm e relativi bulloni. Posizionare le viti in modo che la testa stia dalla parte del legno e i bulloni dalla parte della scheda.
+::: danger ATTENZIONE
+La parte posteriore della telecamera è costituita da un circuito stampato con diversi componenti delicati.
+Nello stringere i dadi, si raccomanda di fare attenzione a non utilizzare pinze o utensili che possano danneggiare il circuito. A tal proposito si consiglia di usare solo le dita per tener fermi i dadi o, al più, una pinzetta molto piccola. 
+:::
 
 <img :src="$withBase('/images/kit/kit_28.jpg')">
 
@@ -175,10 +182,7 @@ Assicurarsi dell'orientamento dei connettori: devono essere inseriti in modo che
 
 <img :src="$withBase('/images/kit/kit_30.jpg')">
 
-
 - 6.5 Infilare, avendo cura di fare in modo che le parti si incastrino correttamente l'una nell'altra il supporto telecamera nelle scanalature sulle paratie, fino a che non il supporto non sia ben incastrato.
-
-
 
 
 <img :src="$withBase('/images/kit/kit_31.jpg')">
@@ -205,7 +209,7 @@ Assicurarsi dell'orientamento dei connettori: devono essere inseriti in modo che
 
 <img :src="$withBase('/images/kit/kit_42.jpg')">
 
-- 7.5 Inserire la vite M3 10mm nel foro posto nella linguetta presente nella parte inferiore del coperchio e avvirarla al dato autobloccante.
+- 7.5 Inserire la vite M3 10mm nel foro posto nella linguetta presente nella parte inferiore del coperchio e avvirarla al dado autobloccante.
 
 <img :src="$withBase('/images/kit/kit_44.jpg')">
 
