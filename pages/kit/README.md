@@ -27,78 +27,90 @@ Seguendo questi passi, assemblerai CoderBot partendo dal suo kit.
 
 ## 1 - Motori
 
+1.1 Infilare i supporti in metallo a forma di “T” nel telaio.
 <img :src="$withBase('/images/kit/kit_02.jpg')">
 
-- 1.1 Infilare i supporti in metallo a forma di “T” nel telaio.
+<br>
+
+1.2 Posizionare i motori in modo che il perno bianco sia rivolto all'esterno della base e che il filo di alimentazione rosso sia vicino alla base, il rosso più in alto.
 
 <img :src="$withBase('/images/kit/kit_03.jpg')">
+<br><br>
 
-- 1.2 Posizionare i motori in modo che il perno bianco sia rivolto all'esterno della base e che il filo di alimentazione rosso sia vicino alla base, il rosso più in alto.
-
-<img :src="$withBase('/images/kit/kit_04.jpg')">
-
-- 1.3 Posizionare le viti M3 da 30mm nei fori.
-
+1.3 Posizionare le viti M3 da 30mm nei fori.
 <img :src="$withBase('/images/kit/kit_05.jpg')">
+<br><br>
 
-- 1.4 Posizionare i bulloni M3 autobloccanti dalla parte opposta. 
-
+1.4 Posizionare i bulloni M3 autobloccanti dalla parte opposta. 
 <img :src="$withBase('/images/kit/kit_06.jpg')">
+<br><br>
 
-- 1.5 Serrare viti e bulloni, è opportuno utilizzare delle pinze o una chiave per tenere fermo il dado. 
-
+1.5 Serrare viti e bulloni, è opportuno utilizzare delle pinze o una chiave per tenere fermo il dado. 
 <img :src="$withBase('/images/kit/kit_07.jpg')">
 
 - 1.6 Far passare i cavi di alimentazione nelle feritoie vicino ai contatti.
 
 Ripetere per l’altro motore
 
+
 ## 2 - Sfera
 
+
+2.1 Fissare i distanziali da 20mm alla sfera utilizzando due viti M3 da 10mm.
 <img :src="$withBase('/images/kit/kit_08.jpg')">
+<br><br>
 
-- 2.1 Fissare i distanziali da 20mm alla sfera utilizzando due viti M3 da 10mm.
 
+2.2 fissare sfera + distanziali alla parte inferiore del telaio, stringere bene le viti e i dadi 
 <img :src="$withBase('/images/kit/kit_09.jpg')">
-
-- 2.2 fissare sfera + distanziali alla parte inferiore del telaio, stringere bene le viti e i dadi 
-
-<img :src="$withBase('/images/kit/kit_10.jpg')">
 
 ::: warning ATTENZIONE
 La sfera deve essere fissata nella parte inferiore del telaio, ovvero dalla stessa parte dove si trovano i motori.
 :::
 
+<img :src="$withBase('/images/kit/kit_10.jpg')">
+
+
+
 ## 3 - Raspberry PI
 
+
+3.1 Posizionare i distanziali in plastica bianca sopra la base, sempre in corrispondenza dei fori.
 <img :src="$withBase('/images/kit/kit_11.jpg')">
+<br><br>
 
-- 3.1 Posizionare i distanziali in plastica bianca sopra la base, sempre in corrispondenza dei fori.
 
+3.3 Posizionare il Raspberry PI sopra i distanziali
 <img :src="$withBase('/images/kit/kit_12.jpg')">
-
-- 3.3 Posizionare il Raspberry PI sopra i distanziali
 
 ::: warning ATTENZIONE
 Il Raspberry deve essere posizionato in modo che le porte USB siano rivolte verso la parte più corta del supporto in legno (il lato opposto alla finestrella).
 Nella foto a destra: particolare di una vite con distanziale fissato correttamente
 :::
 
+<br><br>
+3.4 Infilare le viti di fissaggio nei fori sul Raspberry PI 
 <img :src="$withBase('/images/kit/kit_13.jpg')">
+<br><br>
 
-- 3.4 Infilare le viti di fissaggio nei fori sul Raspberry PI 
-
+3.5 Avvitare e serrare i dadi alle viti sporgenti sotto la base in legno.
 <img :src="$withBase('/images/kit/kit_14.jpg')">
-
-- 3.5 Avvitare e serrare i dadi alle viti sporgenti sotto la base in legno.
+<br><br>
 
 ## 4 - Paratie anteriore e laterali
+
+
+- 4.1 Appoggiare le paratie laterali in modo da far entrare gli incastri nel telaio, senza farle scorrere. La paratia con la finestra laterale deve essere montata sulla parte destra del robot, tenendo conto che i motori sono nella parte anteriore e la sfera nella parte posteriore.
 
 <img :src="$withBase('/images/kit/kit_15.jpg')">
 
 <img :src="$withBase('/images/kit/kit_16.jpg')">
+<br><br>
 
-- 4.1 Appoggiare le paratie laterali in modo da far entrare gli incastri nel telaio, senza farle scorrere. La paratia con la finestra laterale deve essere montata sulla parte destra del robot, tenendo conto che i motori sono nella parte anteriore e la sfera nella parte posteriore.
+- 4.2 Posizionare i sensori sonar nei fori presenti nelle paratie. Il sensore da posiziore nella paratia anteriore è quello con il connettore perpendicolare alla scheda.
+::: warning ATTENZIONE
+E' possibile che sia necessario esercitare una cera forza per far entrare i sensori nelle paratie, sia quella in legno che quelle in metallo.
+:::
 
 <img :src="$withBase('/images/kit/kit_18.jpg')">
 
@@ -108,26 +120,23 @@ Nella foto a destra: particolare di una vite con distanziale fissato correttamen
 
 <img :src="$withBase('/images/kit/kit_20.jpg')">
 
-- 4.2 Posizionare i sensori sonar nei fori presenti nelle paratie. Il sensore da posiziore nella paratia anteriore è quello con il connettore perpendicolare alla scheda.
-::: warning ATTENZIONE
-E' possibile che sia necessario esercitare una cera forza per far entrare i sensori nelle paratie, sia quella in legno che quelle in metallo.
-:::
+<br><br>
 
-<img :src="$withBase('/images/kit/kit_21.jpg')">
+4.3 Appoggiare la paratia anteriore in modo da farla incastrare nelle feritoie sulle paratie laterali.
+<br><br>
 
-- 4.3 Appoggiare la paratia anteriore in modo da farla incastrare nelle feritoie sulle paratie laterali.
 
+4.4 Appoggiare il supporto con il Raspberry PI già montato all'interno del telaio, tra le tre paratie, facendo attenzione che i supporti si incastrino nelle feritoie presenti sulle paratie laterali.
 <img :src="$withBase('/images/kit/kit_22.jpg')">
+<br><br>
 
-- 4.4 Appoggiare il supporto con il Raspberry PI già montato all'interno del telaio, tra le tre paratie, facendo attenzione che i supporti si incastrino nelle feritoie presenti sulle paratie laterali.
 
+4.5 Far scorre le paratie verso la parte posteriore del telaio in modo da incastrarsi in esso.
 <img :src="$withBase('/images/kit/kit_23.jpg')">
+<br><br>
 
-- 4.5 Far scorre le paratie verso la parte posteriore del telaio in modo da incastrarsi in esso.
-
+4.6 Posizionare la vite M3 10mm nel foro posto nella parte anteriore del telaio e fissarla con un dado autobloccante M3.
 <img :src="$withBase('/images/kit/kit_24.jpg')">
-
-- 4.6 Posizionare la vite M3 10mm nel foro posto nella parte anteriore del telaio e fissarla con un dado autobloccante M3.
 
 ## 5 - Batteria e collegamenti
 
