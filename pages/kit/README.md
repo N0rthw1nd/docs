@@ -48,7 +48,7 @@ Seguendo questi passi, assemblerai CoderBot partendo dal suo kit.
 1.5 Serrare viti e bulloni, è opportuno utilizzare delle pinze o una chiave per tenere fermo il dado. 
 <img :src="$withBase('/images/kit/kit_07.jpg')">
 
-- 1.6 Far passare i cavi di alimentazione nelle feritoie vicino ai contatti.
+1.6 Far passare i cavi di alimentazione nelle feritoie vicino ai contatti.
 
 Ripetere per l’altro motore
 
@@ -100,14 +100,14 @@ Nella foto a destra: particolare di una vite con distanziale fissato correttamen
 ## 4 - Paratie anteriore e laterali
 
 
-- 4.1 Appoggiare le paratie laterali in modo da far entrare gli incastri nel telaio, senza farle scorrere. La paratia con la finestra laterale deve essere montata sulla parte destra del robot, tenendo conto che i motori sono nella parte anteriore e la sfera nella parte posteriore.
+4.1 Appoggiare le paratie laterali in modo da far entrare gli incastri nel telaio, senza farle scorrere. La paratia con la finestra laterale deve essere montata sulla parte destra del robot, tenendo conto che i motori sono nella parte anteriore e la sfera nella parte posteriore.
 
 <img :src="$withBase('/images/kit/kit_15.jpg')">
 
 <img :src="$withBase('/images/kit/kit_16.jpg')">
 <br><br>
 
-- 4.2 Posizionare i sensori sonar nei fori presenti nelle paratie. Il sensore da posiziore nella paratia anteriore è quello con il connettore perpendicolare alla scheda.
+4.2 Posizionare i sensori sonar nei fori presenti nelle paratie. Il sensore da posiziore nella paratia anteriore è quello con il connettore perpendicolare alla scheda.
 ::: warning ATTENZIONE
 E' possibile che sia necessario esercitare una cera forza per far entrare i sensori nelle paratie, sia quella in legno che quelle in metallo.
 :::
@@ -140,13 +140,15 @@ E' possibile che sia necessario esercitare una cera forza per far entrare i sens
 
 ## 5 - Batteria e collegamenti
 
-<img :src="$withBase('/images/kit/kit_26.jpg')">
+<br>
 
-- 5.1 Collegare i cavi di alimentazione dei motori: quello del motore destro sullo spinotto più a destra.
+5.1 Collegare i cavi di alimentazione dei motori: quello del motore destro sullo spinotto più a destra.
+<img :src="$withBase('/images/kit/kit_26.jpg')">
+<br><br>
+
+5.2 Collegare i cavi dei sensori a ultrasuoni: il cavo del sensore centrale, che passa sotto il raspberry e atteaverso la feritoria nella parte posteriore del supporto, deve essere inserito nel connettore più vicina alla parte anteriore. Il cavo del sensore sinistro deve essere posizionato nel connettore al centro e infine il cavo del sensore destro nel connettore più vicina alla parte posteriore.
 
 <img :src="$withBase('/images/kit/kit_25.jpg')">
-
-- 5.2 Collegare i cavi dei sensori a ultrasuoni: il cavo del sensore centrale, che passa sotto il raspberry e atteaverso la feritoria nella parte posteriore del supporto, deve essere inserito nel connettore più vicina alla parte anteriore. Il cavo del sensore sinistro deve essere posizionato nel connettore al centro e infine il cavo del sensore destro nel connettore più vicina alla parte posteriore.
 
 ::: danger ATTENZIONE
 Scambiare il verso del connettore comporta invertire la polarità dell'alimentazione del sensore che, oltre a non funzionare, potrebbe danneggiarsi.
@@ -155,27 +157,34 @@ Assicurarsi dell'orientamento dei connettori: devono essere inseriti in modo che
 <img :src="$withBase('/images/kit/connectors_side.jpg')">
 :::
 
-- 5.3 Posizionare la batteria all'interno del telaio, sotto il Raspberry; la batteria deve essere posizionata in modo che il display dello stato di carica sia rivolto verso il basso e i connettori USB verso la parte posteriore.
+<br><br>
+5.3 Posizionare la batteria all'interno del telaio, sotto il Raspberry; la batteria deve essere posizionata in modo che il display dello stato di carica sia rivolto verso il basso e i connettori USB verso la parte posteriore.
 
 <img :src="$withBase('/images/kit/kit_32.jpg')">
+<br><br><br>
 
-- 5.4 Collegare i cavi USB - Micro USB in dalla batteria al Raspberry e alla scheda motori. Il cavo più lungo, con i connettori orientati a 90°, deve essere fatto passare dall'interno del telaio all'esterno della finestra laterla per poi rientrare subito ed essere inserito nella presa di alimentazione del Raspberry. 
+
+5.4 Collegare i cavi USB - Micro USB in dalla batteria al Raspberry e alla scheda motori. Il cavo più lungo, con i connettori orientati a 90°, deve essere fatto passare dall'interno del telaio all'esterno della finestra laterla per poi rientrare subito ed essere inserito nella presa di alimentazione del Raspberry. 
 
 <img :src="$withBase('/images/kit/kit_34.jpg')">
 
+<br><br>
+
+5.5 Collegare il cavo più corto, che deve essere usato per collegare la batteria alla scheda motori, restando all'interno del telaio.
 <img :src="$withBase('/images/kit/kit_35.jpg')">
 
-- 5.5 Collegare il cavo più corto, che deve essere usato per collegare la batteria alla scheda motori, restando all'interno del telaio.
 
 ## 6 - Telecamera
 
 <img :src="$withBase('/images/kit/kit_27.jpg')">
 
-- 6.1 Posizionare la telecamera sul supporto in modo che la finestrella, asimmetrica, lasci scoperto il led sulla parte destra della scheda della telecamera.
 
+6.1 Posizionare la telecamera sul supporto in modo che la finestrella, asimmetrica, lasci scoperto il led sulla parte destra della scheda della telecamera.
 <img :src="$withBase('/images/kit/kit_27b.jpg')">
 
-- 6.2 Fissare la telecamera con le viti M2 6mm e relativi bulloni. Posizionare le viti in modo che la testa stia dalla parte del legno e i bulloni dalla parte della scheda.
+<br><br>
+
+6.2 Fissare la telecamera con le viti M2 6mm e relativi bulloni. Posizionare le viti in modo che la testa stia dalla parte del legno e i bulloni dalla parte della scheda.
 ::: danger ATTENZIONE
 La parte posteriore della telecamera è costituita da un circuito stampato con diversi componenti delicati.
 Nello stringere i dadi, si raccomanda di fare attenzione a non utilizzare pinze o utensili che possano danneggiare il circuito. A tal proposito si consiglia di usare solo le dita per tener fermi i dadi o, al più, una pinzetta molto piccola. 
@@ -183,59 +192,69 @@ Nello stringere i dadi, si raccomanda di fare attenzione a non utilizzare pinze 
 
 <img :src="$withBase('/images/kit/kit_28.jpg')">
 
-- 6.3 Far passare il cavo piatto dalla telecamera fino al farlo scorrere nel connettore posto sul Raspberry. Verificare che la linguetta di fissaggio posta sul connettore sia estratta. Una volta che il cavo piatto è ben inserito nel connettore, spingere la linguetta verso il basso, in modo da fissare il cavo.
+<br><br>
+6.3 Far passare il cavo piatto dalla telecamera fino al farlo scorrere nel connettore posto sul Raspberry. Verificare che la linguetta di fissaggio posta sul connettore sia estratta. Una volta che il cavo piatto è ben inserito nel connettore, spingere la linguetta verso il basso, in modo da fissare il cavo.
 
 <img :src="$withBase('/images/kit/kit_29.jpg')">
 
-- 6.4 Posizionare il supporto della telecamera sul telaio principale in corrispondenza delle scanalature.
+<br><br>
+
+6.4 Posizionare il supporto della telecamera sul telaio principale in corrispondenza delle scanalature.
 
 <img :src="$withBase('/images/kit/kit_30.jpg')">
 
-- 6.5 Infilare, avendo cura di fare in modo che le parti si incastrino correttamente l'una nell'altra il supporto telecamera nelle scanalature sulle paratie, fino a che non il supporto non sia ben incastrato.
+<br><br>
+6.5 Infilare, avendo cura di fare in modo che le parti si incastrino correttamente l'una nell'altra il supporto telecamera nelle scanalature sulle paratie, fino a che non il supporto non sia ben incastrato.
 
 
 <img :src="$withBase('/images/kit/kit_31.jpg')">
+
+<br><br>
 
 ## 7 - Coperchio, ruote e altoparlante
 
 <img :src="$withBase('/images/kit/kit_37.jpg')">
 
-- 7.1 Far passare il cavetto con il jack audio da 3.5” dall'interno del telaio all'esterno, attraverso la finestra laterale della paratia.
+7.1 Far passare il cavetto con il jack audio da 3.5” dall'interno del telaio all'esterno, attraverso la finestra laterale della paratia.
 
 <img :src="$withBase('/images/kit/kit_38.jpg')">
+<br><br>
 
-- 7.2 Inserire il jack audio nella presa sul lato del Raspberry.
+7.2 Inserire il jack audio nella presa sul lato del Raspberry.
 
 <img :src="$withBase('/images/kit/kit_39.jpg')">
+<br><br>
 
-- 7.3 Far passare l'altra estremità del cavo (connettore Mini USB) dalla parte anteriore del telaio.
+7.3 Far passare l'altra estremità del cavo (connettore Mini USB) dalla parte anteriore del telaio.
 
 <img :src="$withBase('/images/kit/kit_40.jpg')">
+<br><br>
 
-- 7.4 Appoggiare il coperchio sulle paratie laterali, facendo in modo che le feritoie e gli incastri siano tutti correttamente impegnati nelle paratie.
+
+7.4 Appoggiare il coperchio sulle paratie laterali, facendo in modo che le feritoie e gli incastri siano tutti correttamente impegnati nelle paratie.
 
 <img :src="$withBase('/images/kit/kit_41.jpg')">
 
 <img :src="$withBase('/images/kit/kit_42.jpg')">
+<br><br>
 
-- 7.5 Inserire la vite M3 10mm nel foro posto nella linguetta presente nella parte inferiore del coperchio e avvirarla al dado autobloccante.
-
+7.5 Inserire la vite M3 10mm nel foro posto nella linguetta presente nella parte inferiore del coperchio e avvirarla al dado autobloccante.
 <img :src="$withBase('/images/kit/kit_44.jpg')">
+<br><br>
 
-- 7.6 Montare le ruote facendole scorrere nei semiassi, facendo attenzione a non forzare il telaio. Si consiglia di fare una leggera forza agendo direttamente su motori e ruote.
-
+7.6 Montare le ruote facendole scorrere nei semiassi, facendo attenzione a non forzare il telaio. Si consiglia di fare una leggera forza agendo direttamente su motori e ruote.
 <img :src="$withBase('/images/kit/kit_43.jpg')">
+<br><br>
 
-- 7.7 Collegare il connettore Micro USB all'altoparlante.
+7.7 Collegare il connettore Micro USB all'altoparlante.
 
 <img :src="$withBase('/images/kit/kit_45.jpg')">
 
 ## 8 - Accensione
 
+
+8.1 Collegare la spina Micro USB nella presa presente sul Raspberry, accessibile dalla finestra sulla paratia laterale.
 <img :src="$withBase('/images/kit/kit_47.jpg')">
-
-- 8.1 Collegare la spina Micro USB nella presa presente sul Raspberry, accessibile dalla finestra sulla paratia laterale.
-
 
 
 
