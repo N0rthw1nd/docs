@@ -7,7 +7,7 @@ Questa parte copre l'utilizzo vero e proprio dell'applicazione. [Connetteti alla
 
 ## Programmazione
 
-Un *Programma* è un insieme di blocchi che definiscono quali azioni che CoderBot dovrà eseguire e in che modo. Puoi scrivere un programma utilizzando Blockly, oppure Python.
+Un *Programma* è un insieme di blocchi che definiscono quali azioni che CoderBot dovrà eseguire e in che modo.
 
 Il modo più semplice di scrivere un programma, è cliccare sul bottone Programma nella schermata principale, oppure nel menù laterale. 
 
