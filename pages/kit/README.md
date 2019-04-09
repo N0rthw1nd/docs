@@ -72,7 +72,7 @@ La sfera deve essere fissata nella parte inferiore del telaio, ovvero dalla stes
 
 
 
-## 3 - Raspberry PI
+## 3 - Raspberry Pi
 
 
 3.1 Posizionare i distanziali in plastica bianca sopra la base, sempre in corrispondenza dei fori.
@@ -80,7 +80,7 @@ La sfera deve essere fissata nella parte inferiore del telaio, ovvero dalla stes
 <br><br>
 
 
-3.3 Posizionare il Raspberry PI sopra i distanziali
+3.3 Posizionare il Raspberry Pi sopra i distanziali
 <img :src="$withBase('/images/kit/kit_12.jpg')">
 
 ::: warning ATTENZIONE
@@ -89,7 +89,7 @@ Nella foto a destra: particolare di una vite con distanziale fissato correttamen
 :::
 
 <br><br>
-3.4 Infilare le viti di fissaggio nei fori sul Raspberry PI 
+3.4 Infilare le viti di fissaggio nei fori sul Raspberry Pi 
 <img :src="$withBase('/images/kit/kit_13.jpg')">
 <br><br>
 
@@ -126,7 +126,7 @@ E' possibile che sia necessario esercitare una cera forza per far entrare i sens
 <br><br>
 
 
-4.4 Appoggiare il supporto con il Raspberry PI già montato all'interno del telaio, tra le tre paratie, facendo attenzione che i supporti si incastrino nelle feritoie presenti sulle paratie laterali.
+4.4 Appoggiare il supporto con il Raspberry Pi già montato all'interno del telaio, tra le tre paratie, facendo attenzione che i supporti si incastrino nelle feritoie presenti sulle paratie laterali.
 <img :src="$withBase('/images/kit/kit_22.jpg')">
 <br><br>
 
