@@ -1,6 +1,6 @@
 # Manuale d'Uso
 
-Questa parte copre l'utilizzo vero e proprio dell'applicazione. [Connetteti alla rete WiFi](/manual/#messa-in-funzione) di CoderBot e accedi a [coder.bot](http://coder.bot). Dovresti essere di fronte alla schermata principale di CoderBot:
+Questa parte copre l'utilizzo vero e proprio dell'applicazione. [Accendi CoderBot](/manual/#messa-in-funzione), connettiti alla rete WiFi e accedi a [coder.bot](http://coder.bot). Dovresti essere di fronte alla schermata principale di CoderBot:
 
 <img :src="$withBase('/images/usermanual/landing.png')">
 
@@ -34,11 +34,11 @@ La parte destra, inizialmente vuota, è dove trascinerai i blocchi per comporre 
 
 Utilizzando il pulsante **Salva** puoi salvare il lavoro fatto fin'ora su CoderBot. Utilizzando **Salva con Nome** creerai un'altra copia del programma, salvandolo con un altro nome.
 
-TODO ADDPIC
+<img :src="$withBase('/images/usermanual/save1.png')">
 
 Dopo il primo salvataggio, dove ti verrà chiesto come chiamare il programma, il pulsante **Salva** aggiorna quel salvataggio alle ultime modifiche che hai fatto.
 
-TODO ADDPIC
+<img :src="$withBase('/images/usermanual/load1.png')">
 
 Quando vuoi riprendere il tuo lavoro, apri la vista Programmazione e premi **Carica**. Un elenco ti mostrerà tutti i programmi salvati sul tuo CoderBot, permettendoti di caricarne uno.
 
