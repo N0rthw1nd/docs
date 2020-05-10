@@ -1,0 +1,48 @@
+name: Build and deploy an updated version of the website
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout CoderBotOrg/docs
+      uses: actions/checkout@v2
+      with:
+        repository: CoderBotOrg/docs
+        path: folder/repo
+
+    - name: Checkout CoderBotOrg/docs
+      uses: actions/checkout@v2
+      with:
+        repository: CoderBotOrg/docs
+        ref: master
+        path: folder/build
+        
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+
+    - name: Install npm dependencies
+      working-directory: folder/repo/
+      run: |
+        npm install
+        
+    - working-directory: folder/
+      run: |
+        cd repo
+        npx vuepress build pages/
+        mkdir dist
+        cp pages/.vuepress/dist/* dist/ -r
+        cd ..
+        cp -a repo/dist/. build/
+        cd build
+        mkdir -m 700 ~/.ssh
+        echo "${{ secrets.SSH_KEY_SECRET }}" > ~/.ssh/id_ed25519
+        chmod 0600 ~/.ssh/id_ed25519
+        git config --local user.name "GitHub Action"
+        git config --global user.email "support@coderbot.org"
+        echo "docs.coderbot.org" > CNAME
+        git add .
+        git commit -m "Update build" && git push || :
