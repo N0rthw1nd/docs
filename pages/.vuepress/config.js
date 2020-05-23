@@ -9,6 +9,12 @@ module.exports = {
   plugins: [
     //require('./markdown/index.js')
     //require('./plugin-last-updated/index.js')
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-52649755-1"
+      }
+    ]
   ],
   // We are serving on coderbot.org/docs, so set the baseURL accordingly
   // This variable is exposed on MD, HTML and Vue components as $withBase
