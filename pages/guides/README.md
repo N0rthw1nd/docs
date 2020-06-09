@@ -147,7 +147,7 @@ Il tipo di elementi che compongono l'estensione musicale è descritto nel manual
 
 Clicca sull'elemento con l'icona a forma di zampa e, tenendo premuto il pulsante sinistro del mouse, trascinalo verso destra.
 
-<img :src="$withBase('/images/guides/sens12.png')">
+<img :src="./images/guides/animal_base.png">
 
 Rilascia l'elemento nella parte bianca dello schermo, dove preferisci.
 
@@ -156,12 +156,12 @@ Esegui il programma. Che verso ha fatto coderbot?
 
 Ora prova a cliccare l'elemento con l'icona a forma di nota e trascinalo sulla parte bianca dello schermo.
 
-<img :src="$withBase('/images/guides/sens12.png')">
+<img :src="./images/guides/note_base.png">
 
 Posizionalo sotto all'elemento precedente. Esegui il programma. Ora prova a selezionare un nuovo blocco nota, giustapponoli sotto al precedente, 
 seleziona una nota diversa ed esegui il programma come in figura. 
 
-<img :src="$withBase('/images/guides/sens12.png')">
+<img :src="./images/guides/program_base.png">
 
 
 - Che suoni ti aspetti che emetta CoderBot?
@@ -169,7 +169,7 @@ seleziona una nota diversa ed esegui il programma come in figura.
 
 Di seguito trovi il programma per suonare una *scala musicale* di DO maggiore. Prova a imitarlo ed eseguirlo
 
-<img :src="$withBase('/images/guides/sens12.png')">
+<img :src="./images/guides/scala.png">
 
 ### Versione Intermedia
 
