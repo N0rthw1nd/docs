@@ -147,7 +147,7 @@ Il tipo di elementi che compongono l'estensione musicale è descritto nel manual
 
 Clicca sull'elemento con l'icona a forma di zampa e, tenendo premuto il pulsante sinistro del mouse, trascinalo verso destra.
 
-<img :src="./images/guides/animal_base.png">
+<img :src="$withBase('/images/guides/animal_base.png')">
 
 Rilascia l'elemento nella parte bianca dello schermo, dove preferisci.
 
@@ -156,12 +156,12 @@ Esegui il programma. Che verso ha fatto coderbot?
 
 Ora prova a cliccare l'elemento con l'icona a forma di nota e trascinalo sulla parte bianca dello schermo.
 
-<img :src="./images/guides/note_base.png">
+<img :src="$withBase('/images/guides/note_base.png')">
 
 Posizionalo sotto all'elemento precedente. Esegui il programma. Ora prova a selezionare un nuovo blocco nota, giustapponoli sotto al precedente, 
 seleziona una nota diversa ed esegui il programma come in figura. 
 
-<img :src="./images/guides/program_base.png">
+<img :src="$withBase('/images/guides/program_base.png')">
 
 
 - Che suoni ti aspetti che emetta CoderBot?
@@ -169,34 +169,16 @@ seleziona una nota diversa ed esegui il programma come in figura.
 
 Di seguito trovi il programma per suonare una *scala musicale* di DO maggiore. Prova a imitarlo ed eseguirlo
 
-<img :src="./images/guides/scala.png">
-
-### Versione Intermedia
-
-Clicca su **Musica** nell'elenco che trovi nella parte sinistra dello schermo
-
-<img :src="$withBase('/images/guides/sens12.png')">
-
-Puoi vedere tre tipi di blocchi, seleziona il blocco nota e, tenendo premuto il pulsante sinistro del mouse, trascina l'elemento verso destra.
- scegli 
+<img :src="$withBase('/images/guides/scala.png')">
 
 ### Versione Avanzata
 
-Clicca sulla sezione "Musica", puoi vedere quattro tipi di blocchi: il primo si riferisce ad una nota generica ed è così composto:
+Leggi le specifiche della [versione avanzata](/usermanual/#Interfaccia-intermedia)
 
-- Un campo con menù a tendina per la selezione della nota
-- Un campo con menù a tendina per scegliere se alterare la nota con un bemolle o un diesis 
-- Un campo per inserire il suono di uno strumento o il verso di un animale per riprodurre la nota
-- Un campo per inserire la durata di una nota
+Con l'aiuto di un docente, dopo aver letto il manuale utente per l'interfaccia base prova a realizzare il programma in figura con tasselli disponibili nell'interfaccia.
 
-<img :src="$withBase('/images/guides/sens12.png')">
+<img :src="$withBase('/images/guides/nella_vecchia_fattoria_adv.png')">
 
-Il secondo e il terzo ti permettono di scegliere rispettivamento il tipo di strumento musicale o il verso animale con cui riprodurre una nota ed è il seguente:
-
-<img :src="$withBase('/images/guides/sens12.png')">
-
-Il quarto blocco rappresenta una pausa che puoi inserire nelle tue composizioni. Esso è formato un campo che permette di inserire la duarata della pausa :
-
-<img :src="$withBase('/images/guides/sens12.png')">
-
-
+- Sei riuscito ad eseguire il programma?. Per regolare la velocità della composizione prova a creare variabile per la durata delle note e incrementane il valore a tua piacimento.
+Ricordati che se inrcementi la durata di un blocco, tutti gli altri blocchi, qualora usassero una variabile diversa per la durata delle note, deve essere aggiornata proporzionalmente.
+- Cha canzone è la composizione risultante dall'esecuzione programma? 
